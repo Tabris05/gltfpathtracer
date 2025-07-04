@@ -1,0 +1,7 @@
+.vs/**
+x64/**
+cudapathtracer/**
+cudapathtracer
+*.vcxproj.user
+*.png
+*.txt

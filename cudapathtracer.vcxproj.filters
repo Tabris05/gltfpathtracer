@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d7bf6e36-958f-4905-a324-6e4854c54414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{14d3a47e-dc08-4e28-b37a-d76ec6866af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib">
+      <UniqueIdentifier>{7be796c1-c9de-431b-b3d1-a2fd5d9721e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib\FastGLTF">
+      <UniqueIdentifier>{e03fb3cf-8d65-4bf4-92e2-6407951c840a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib\MikkTSpace">
+      <UniqueIdentifier>{c0d0b02f-1ac2-4e9f-b6a6-fda35e251f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib\STB">
+      <UniqueIdentifier>{3de894b3-a360-4ae3-80cc-e5eb485b8cac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="src\texture.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\camera.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\main.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\ray.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\scene.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\typedefs.cuh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\texture.cuh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene.cuh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ray.cuh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hitrecord.cuh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera.cuh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\aabb.cuh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib\fastgltf\base64.cpp">
+      <Filter>Source Files\Lib\FastGLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\fastgltf\fastgltf.cpp">
+      <Filter>Source Files\Lib\FastGLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\fastgltf\io.cpp">
+      <Filter>Source Files\Lib\FastGLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\fastgltf\simdjson.cpp">
+      <Filter>Source Files\Lib\FastGLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\mikktspace\mikktspace.c">
+      <Filter>Source Files\Lib\MikkTSpace</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\stb\stb_image.c">
+      <Filter>Source Files\Lib\STB</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\stb\stb_image_write.c">
+      <Filter>Source Files\Lib\STB</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
